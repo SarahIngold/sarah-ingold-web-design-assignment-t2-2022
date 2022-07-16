@@ -1,2 +1,24 @@
 @import url("normalize.css");
 
+
+/* -------------------- GLOBAL DEFAULTS */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+/* -------------------- HEADINGS AND TYPE */
+
+/* -------------------- LAYOUTS */
+
+/* -------------------- HEADER */
+
+/* -------------------- NAVIGATION */
+
+/* -------------------- FOOTER */
+
+/* -------------------- MODULES */
