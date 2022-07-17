@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #2e4159;
+    background-color: #3D4F73;
 }
 
 img,
@@ -19,17 +19,21 @@ iframe {
 /* -------------------- HEADINGS AND TYPE */
 
 h1 {
-    color: #91b7d9;
+    color: #394759;
 }
 
 h2 {
-    color: #f2f2f2;
+    color: #F2F2F2;
+}
+
+p {
+    color: #394759;
 }
 
 /* -------------------- LAYOUTS */
 
 .layout-wide {
-    background-color: #4e7da6;
+    background-color: #95AFBF;
 
     max-width: 1000px;
     margin-left: auto;
@@ -37,7 +41,7 @@ h2 {
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 3%;
-    
+
 }
 
 /* -------------------- HEADER */
