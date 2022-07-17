@@ -11,13 +11,18 @@ body {
     background-color: #2e4159;
 }
 
+img,
+iframe {
+    max-width: 100%;
+}
+
 /* -------------------- HEADINGS AND TYPE */
 
-h1{
+h1 {
     color: #91b7d9;
 }
 
-h2{
+h2 {
     color: #f2f2f2;
 }
 
