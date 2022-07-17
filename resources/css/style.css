@@ -13,8 +13,7 @@ body {
 
 img,
 iframe,
-video 
-na{
+video{
     max-width: 100%;
 }
 
@@ -43,6 +42,7 @@ p {
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 3%;
+    padding-bottom: 3%;
 
 }
 /* -------------------- HEADER */
