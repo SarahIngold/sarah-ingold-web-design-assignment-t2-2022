@@ -11,6 +11,8 @@
 
 body {
     background-color: #3d4f73;
+
+    line-height: 1.4;
 }
 
 img,
@@ -23,30 +25,26 @@ video {
 
 h1{
     font-family: 'Arapey', serif;
-}
-
-h1 {
+    font-size: 40px;
     color:#0D0D0D;
 }
 
+
 h2{
     font-family: 'Urbanist', sans-serif;
-}
-
-h2 {
+    font-size: 25px;
     color: #0D0D0D;
 }
 
 h3{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins ExtraLight 200', sans-serif;
+    font-size: 15px;
+    color: #0D0D0D;
 }
 
 p{
-    font-family: 'Poppins', sans-serif;
-  
-}
-
-p {
+    font-family: 'Poppins Thin 100', sans-serif;
+    font-size: 12px;
     color: #0D0D0D;
 }
 
