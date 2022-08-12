@@ -73,11 +73,17 @@ header {
     max-width: 400px
 }
 
-@media screen and (min-width: 800px)
-
 /* -------------------- NAVIGATION */
 
 /* -------------------- FOOTER */
+
+footer {
+    text-align: center;
+}
+
+.footer-image img {
+    max-width: 150px
+}
 
 /* -------------------- MODULES */
 
