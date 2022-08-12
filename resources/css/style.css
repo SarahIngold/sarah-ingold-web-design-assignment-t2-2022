@@ -21,28 +21,29 @@ video {
     max-width: 100%;
 }
 
+
 /* -------------------- HEADINGS AND TYPE */
 
-h1{
+h1 {
     font-family: 'Arapey', serif;
     font-size: 40px;
-    color:#0D0D0D;
+    color: #0D0D0D;
 }
 
 
-h2{
+h2 {
     font-family: 'Urbanist', sans-serif;
     font-size: 25px;
     color: #0D0D0D;
 }
 
-h3{
+h3 {
     font-family: 'Poppins ExtraLight 200', sans-serif;
     font-size: 15px;
     color: #0D0D0D;
 }
 
-p{
+p {
     font-family: 'Poppins Thin 100', sans-serif;
     font-size: 15px;
     color: #0D0D0D;
@@ -74,6 +75,56 @@ header {
 }
 
 /* -------------------- NAVIGATION */
+.main-nav {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: none;
+}
+
+.main-nav a {
+    display: block;
+    color: #D9C7C7;
+    font-family: 'Urbanist', sans-serif;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+a:hover {
+    color: rgb(177, 104, 120);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+}
+
+a:visited {
+    color: #3D4F73;
+    text-decoration-style: solid;
+}
+
+.nav-prompt {
+    background-color: transparent;
+    border-style: hidden;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bolder;
+    color: #3D4F73;
+    text-decoration-color: #3D4F73;
+    width: 100%
+}
+
+@media screen and (min-width: 800px) {
+    .main-nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .nav-prompt {
+        display: none;
+    }
+}
 
 /* -------------------- FOOTER */
 
