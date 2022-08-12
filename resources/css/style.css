@@ -69,10 +69,8 @@ header {
     text-align: center;
 }
 
-.header-text {
-    font-family: 'Arapey';
-    font-size: 32px;
-
+.header-image img {
+    max-width: 400px
 }
 
 @media screen and (min-width: 800px)
