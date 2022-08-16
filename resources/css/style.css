@@ -220,6 +220,16 @@ body {
 
 /* image gallery */
 
+.gallery img{
+    transition: 0.2s;
+    filter: grayscale(100%);
+}
+
+.gallery a:hover img {
+    transform: scale (1.1);
+    filter: unset;
+}
+
 @media screen and (min-width: 800px) {
     .gallery {
         display: grid;
