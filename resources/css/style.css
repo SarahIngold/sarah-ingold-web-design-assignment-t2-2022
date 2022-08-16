@@ -217,3 +217,20 @@ body {
         grid-gap: 20px;
     }
 }
+
+/* image gallery */
+
+@media screen and (min-width: 800px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+    
+}
+
+@media screen and (min-width: 800px) {
+    .gallery {
+grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
